@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a4e69;
+    color: #f2e9e4;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #22223b;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f2e9e4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c9ada7;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #4a4e69;
+}
+
+.dei-container, .eroi-container, .miti-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.dio, .eroe, .mito {
+    background-color: #f2e9e4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dio h3, .eroe h3, .mito h3 {
+    color: #22223b;
+}
